@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background: linear-gradient(135deg, #e0f7fa, #80deea, #4fc3f7, #1976d2);
+            background-attachment: fixed;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 30px;
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+        
+        header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 30px;
+            border-bottom: 2px solid #4fc3f7;
+            padding-bottom: 20px;
+        }
+        
+        .photo {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid #4fc3f7;
+            margin-right: 30px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+        
+        .header-text h1 {
+            margin: 0;
+            color: #1565c0;
+            font-size: 2.2em;
+        }
+        
+        .header-text p {
+            margin: 5px 0;
+            color: #555;
+        }
+        
+        h2 {
+            color: #1565c0;
+            border-bottom: 2px solid #4fc3f7;
+            padding-bottom: 5px;
+            margin-top: 25px;
+        }
+        
+        .section {
+            margin-bottom: 25px;
+        }
+        
+        .info-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+        }
+        
+        .info-item {
+            margin-bottom: 10px;
+        }
+        
+        .info-item strong {
+            display: inline-block;
+            width: 120px;
+            color: #1976d2;
+        }
+        
+        .education-item, .skill-item {
+            margin-bottom: 15px;
+            padding-left: 20px;
+            border-left: 3px solid #4fc3f7;
+        }
+        
+        .education-item h3, .skill-item h3 {
+            margin: 0 0 5px 0;
+            color: #1976d2;
+        }
+        
+        .education-item p, .skill-item p {
+            margin: 0;
+            color: #555;
+        }
+        
+        .skills-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        
+        .skill-tag {
+            background-color: #e3f2fd;
+            color: #1565c0;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-weight: 500;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+        }
+        
+        @media (max-width: 768px) {
+            header {
+                flex-direction: column;
+                text-align: center;
+            }
+            
+            .photo {
+                margin-right: 0;
+                margin-bottom: 20px;
+            }
+            
+            .info-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <!-- Ganti dengan foto Anda (simpan di folder yang sama atau gunakan URL) -->
+            <img src="https://i.ibb.co/nNPRgT5N/JJ.jpg" alt="JJ" class="photo">
+            <div class="header-text">
+                <h1>Muhammad Hafizh Ramadhan</h1>
+                <p>Fresh Graduate</p>
+                <p><small>"gua mah jago"</small></p>
+            </div>
+        </header>
+        
+        <div class="section">
+            <h2>Identitas</h2>
+            <div class="info-grid">
+                <div class="info-item">
+                    <strong>Nama Lengkap:</strong> Muhammad Hafizh Ramadhan 
+                </div>
+                <div class="info-item">
+                    <strong>Tempat, Tgl Lahir :</strong> Bogor,21 oktober 2006
+                </div>
+                <div class="info-item">
+                    <strong>No. HP :</strong> +62 896-0539-3009
+                </div>
+                <div class="info-item">
+                    <strong>Email :</strong> mhafizhr22@gmail.com
+                </div>
+                <div class="info-item">
+                    <strong>Alamat :</strong> Jl. Lantur,Kec. Larangan, Kota Tangerang
+                </div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>Background Pendidikan</h2>
+            <div class="education-item">
+                <h3>Universitas bina sarana informatika</h3>
+                <p>Jurusan Sistem Informasi (2025 - Sekarang)</p>
+            </div>
+            <div class="education-item">
+                <h3>SMK Media informatika</h3>
+                <p>Jurusan Teknik Komputer Jaringan</p>
+            </div>
+            <div class="education-item">
+                <h3>MTS AL IKHWANIYAH</h3>
+            </div>
+            <div class="education-item">
+                <h3>SDI Insan Mulia</h3>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>Skill yang Dimiliki</h2>
+            <div class="skills-container">
+                <span class="skill-tag">HTML</span>
+                <span class="skill-tag">CSS</span>
+                <span class="skill-tag">JavaScript</span>
+                <span class="skill-tag">Microsoft Office</span>
+                <span class="skill-tag">Python</span>
+                <span class="skill-tag">configuration Mikrotik</span>
+		<span class="skill-tag">Network Administrator</span>
+		<span class="skill-tag">Game Developer</span>
+		<span class="skill-tag">Software Engineer</span>
+		<span class="skill-tag">Ethical Hacker</span>
+		<span class="skill-tag">AI Specialist</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
